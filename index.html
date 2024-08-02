@@ -563,7 +563,7 @@
 
       <!-- Step by step -->
       <div id="steps" class="mt-20 flex flex-col">
-        <div class="px-8 w-full sm:w-auto sm:px-16">
+        <div class="px-8 w-full sm:w-auto sm:px-16 md:px-32">
           <h1 class="text-5xl font-bold font-inter text-gray-800">
             How it works
           </h1>
@@ -770,7 +770,7 @@
       </div>
 
       <!-- Second Card Section -->
-      <div id="card-container" class="mt-28 px-8 sm:px-16">
+      <div id="card-container" class="mt-28 px-8 sm:px-16 md:px-32">
         <div class="flex flex-col gap-3">
           <h1
             class="text-5xl font-medium font-inter text-gray-800 sm:font-bold"
@@ -909,7 +909,7 @@
         </div>
       </div>
 
-      <div id="slider-animation" class="mt-28 px-8 sm:px-16">
+      <div id="slider-animation" class="mt-28 px-8 sm:px-16 md:px-32">
         <div
           class="border border-gray-300 h-auto overflow-hidden p-4 rounded-xl"
         >
@@ -943,11 +943,245 @@
       </div>
 
       <!-- !Customer Stories Section -->
-      <div id="customer-stories" class="mt-28 px-8 sm:px-16">
-        <h1 class="text-5xl font-semibold text-gray-800 font-poppins">
-          Customer stories
-        </h1>
+      <div id="customer-stories" class="mt-28 px-8 sm:px-16 md:px-32">
+        <div id="heading" class="mb-12">
+          <h1 class="text-5xl font-semibold text-gray-800 font-poppins">
+            Customer stories
+          </h1>
+        </div>
+        <div id="card1" class="border border-gray-300 rounded-xl">
+          <div class="flex flex-col gap-6 lg:flex-row lg:items-end">
+            <div id="card-content" class="p-8 flex flex-col gap-12">
+              <img
+                src="https://anuj-kumar-sharma.github.io/tailwind-landing-page/assets/asset%2044.svg"
+                alt=""
+                class="w-fit"
+              />
+              <h3 class="text-xl font-inter text-gray-800 font-medium">
+                ClickUp used ToDesktop to get their desktop app in front of
+                customers in days instead of months.
+              </h3>
+
+              <div id="tag-container" class="flex gap-2 flex-wrap">
+                <div
+                  class="border border-yellow-400 w-fit px-3 py-1 rounded-lg bg-yellow-50 text-yellow-700 font-semibold mb-4 flex gap-2 items-center"
+                >
+                  <i class="fa-solid fa-check text-yellow-600"></i
+                  ><span>Chromeless UI</span>
+                </div>
+                <div
+                  class="border border-yellow-400 w-fit px-3 py-1 rounded-lg bg-yellow-50 text-yellow-700 font-semibold mb-4 flex gap-2 items-center"
+                >
+                  <i class="fa-solid fa-check text-yellow-600"></i
+                  ><span>Native spellcheck</span>
+                </div>
+                <div
+                  class="border border-yellow-400 w-fit px-3 py-1 rounded-lg bg-yellow-50 text-yellow-700 font-semibold mb-4 flex gap-2 items-center"
+                >
+                  <i class="fa-solid fa-check text-yellow-600"></i
+                  ><span>Task time in menubar</span>
+                </div>
+                <div
+                  class="border border-yellow-400 w-fit px-3 py-1 rounded-lg bg-yellow-50 text-yellow-700 font-semibold mb-4 flex gap-2 items-center"
+                >
+                  <i class="fa-solid fa-check text-yellow-600"></i
+                  ><span>Notification count in the dock</span>
+                </div>
+                <div
+                  class="border border-yellow-400 w-fit px-3 py-1 rounded-lg bg-yellow-50 text-yellow-700 font-semibold mb-4 flex gap-2 items-center"
+                >
+                  <i class="fa-solid fa-check text-yellow-600"></i
+                  ><span>Global hotkey to create task</span>
+                </div>
+              </div>
+
+              <p class="text-lg font-light text-gray-500 font-inter">
+                “ToDesktop provided us with a
+                <span class="text-gray-800">polished desktop app</span> in no
+                time. Their expert team guided us through a smooth migration
+                from our outdated legacy desktop app, enabling us to deliver
+                <span class="text-gray-800">new and improved features</span> to
+                our customers within days.”
+              </p>
+
+              <div id="user-card" class="flex gap-2 items-center">
+                <div id="image">
+                  <img
+                    src="https://anuj-kumar-sharma.github.io/tailwind-landing-page/assets/asset%2045.jpeg"
+                    alt=""
+                    class="w-fit rounded-full"
+                  />
+                </div>
+                <div id="user-data">
+                  <p class="text-lg font-inter font-medium leading-5">
+                    Zeb Evans
+                  </p>
+                  <p class="text-lg font-inter text-gray-500">
+                    Founder & Ceo, ClickUp
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div id="big-image" class="pl-12">
+              <img
+                src="https://anuj-kumar-sharma.github.io/tailwind-landing-page/assets/asset%2046.png"
+                alt=""
+                class=""
+              />
+            </div>
+          </div>
+        </div>
+
+        <div id="cards" class="flex flex-col gap-6 mt-6 lg:flex-row lg:gap-4">
+          <div id="card2" class="border border-gray-300 rounded-xl">
+            <div class="p-6 flex flex-col gap-6">
+              <div id="heading" class="flex gap-4 items-center">
+                <div
+                  class="bg-blue-200 w-12 h-12 rounded-full flex justify-center items-center"
+                >
+                  <i class="fa-solid fa-code text-indigo-800"></i>
+                </div>
+
+                <p class="text-2xl font-semibold text-gray-800 font-poppins">
+                  Native APIs
+                </p>
+              </div>
+
+              <p class="text-lg font-inter font-light">
+                What sets ToDesktop apart is its seamless integration with
+                native APIs using our existing web codebase. By tapping into
+                APIs like Tray and Notifications, we've crafted an exceptionally
+                polished desktop user experience.
+              </p>
+
+              <div id="review" class="flex gap-4 items-center">
+                <div id="images-name" class="flex items-center">
+                  <div
+                    id="image1"
+                    class="rounded-full flex justify-center items-center -mr-3 w-12 h-12 overflow-hidden"
+                  >
+                    <img
+                      src="https://anuj-kumar-sharma.github.io/tailwind-landing-page/assets/asset%2047.png"
+                      alt=""
+                      class="min-w-16 min-h-16"
+                    />
+                  </div>
+                  <div id="image2">
+                    <img
+                      src="https://anuj-kumar-sharma.github.io/tailwind-landing-page/assets/asset%2048.jpeg"
+                      alt=""
+                      class="rounded-full"
+                    />
+                  </div>
+                </div>
+                <div class="flex flex-col font-poppins">
+                  <p class="font-medium text-gray-800">Rick Pastor</p>
+                  <p class="text-gray-500">Rise</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="card3" class="border border-gray-300 rounded-xl">
+            <div class="p-6 flex flex-col gap-6">
+              <div id="heading" class="flex gap-4 items-center">
+                <div
+                  class="bg-blue-200 w-12 h-12 rounded-full flex justify-center items-center"
+                >
+                  <i class="fa-solid fa-code text-indigo-800"></i>
+                </div>
+
+                <p class="text-2xl font-semibold text-gray-800 font-poppins">
+                  Native APIs
+                </p>
+              </div>
+
+              <p class="text-lg font-inter font-light">
+                What sets ToDesktop apart is its seamless integration with
+                native APIs using our existing web codebase. By tapping into
+                APIs like Tray and Notifications, we've crafted an exceptionally
+                polished desktop user experience.
+              </p>
+
+              <div id="review" class="flex gap-4 items-center">
+                <div id="images-name" class="flex items-center">
+                  <div
+                    id="image1"
+                    class="rounded-full flex justify-center items-center -mr-3 w-12 h-12 overflow-hidden"
+                  >
+                    <img
+                      src="https://anuj-kumar-sharma.github.io/tailwind-landing-page/assets/asset%2047.png"
+                      alt=""
+                      class="min-w-16 min-h-16"
+                    />
+                  </div>
+                  <div id="image2">
+                    <img
+                      src="https://anuj-kumar-sharma.github.io/tailwind-landing-page/assets/asset%2048.jpeg"
+                      alt=""
+                      class="rounded-full"
+                    />
+                  </div>
+                </div>
+                <div class="flex flex-col font-poppins">
+                  <p class="font-medium text-gray-800">Rick Pastor</p>
+                  <p class="text-gray-500">Rise</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="card4" class="border border-gray-300 rounded-xl">
+            <div class="p-6 flex flex-col gap-6">
+              <div id="heading" class="flex gap-4 items-center">
+                <div
+                  class="bg-blue-200 w-12 h-12 rounded-full flex justify-center items-center"
+                >
+                  <i class="fa-solid fa-code text-indigo-800"></i>
+                </div>
+
+                <p class="text-2xl font-semibold text-gray-800 font-poppins">
+                  Native APIs
+                </p>
+              </div>
+
+              <p class="text-lg font-inter font-light">
+                What sets ToDesktop apart is its seamless integration with
+                native APIs using our existing web codebase. By tapping into
+                APIs like Tray and Notifications, we've crafted an exceptionally
+                polished desktop user experience.
+              </p>
+
+              <div id="review" class="flex gap-4 items-center">
+                <div id="images-name" class="flex items-center">
+                  <div
+                    id="image1"
+                    class="rounded-full flex justify-center items-center -mr-3 w-12 h-12 overflow-hidden"
+                  >
+                    <img
+                      src="https://anuj-kumar-sharma.github.io/tailwind-landing-page/assets/asset%2047.png"
+                      alt=""
+                      class="min-w-16 min-h-16"
+                    />
+                  </div>
+                  <div id="image2">
+                    <img
+                      src="https://anuj-kumar-sharma.github.io/tailwind-landing-page/assets/asset%2048.jpeg"
+                      alt=""
+                      class="rounded-full"
+                    />
+                  </div>
+                </div>
+                <div class="flex flex-col font-poppins">
+                  <p class="font-medium text-gray-800">Rick Pastor</p>
+                  <p class="text-gray-500">Rise</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+
+      
 
       <div class="h-[1000px]"></div>
     </main>
